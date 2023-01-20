@@ -17,6 +17,10 @@ body {
   flex-direction: column;
 }
 
+.nav-list {
+  list-style-type: none;
+}
+
 h1 {  
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 110px;
