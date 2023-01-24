@@ -1,5 +1,7 @@
 
+import {Link} from "react-router-dom";
 import Logo from "./Logo";
+import ReusableButton from "./ReusableButton";
 
 const Header = () => {
     return ( 
@@ -8,21 +10,19 @@ const Header = () => {
             <Logo />
         </div>
         <nav className="nav-list">
-            <ul>
+            <ul className="nav-list">
                 <li>
-                    Home
+                    <Link className="Links" to = "/"><ReusableButton>Home</ReusableButton></Link>
                 </li>
                 <li>
-                    Projects
+                    <Link className="Links" to = "/About"><ReusableButton>About</ReusableButton></Link>
                 </li>
                 <li>
-                    Contact
+                    <Link className="Links" to = "/ContactForm"><ReusableButton>Contact</ReusableButton></Link>
                 </li>
                 <li>
-                    Resume
-                </li>
-                <li>
-                    GitHub
+                    <Link className="Links" to ={{pathname: "a/https://github.com/RosieMoonYin/"}} target="_blank" ><ReusableButton>GitHub</ReusableButton></Link>
+                   
                 </li>
             </ul>
         </nav>

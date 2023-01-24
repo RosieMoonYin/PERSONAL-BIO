@@ -1,11 +1,8 @@
 //arrow function is a nice thing most modern react projects do  like this
 //Home handles all UI
 
-import About from "./About";
 import Footer from "./Footer";
 import ImageDisplay from "./Image";
-import ReusableButton from "./ReusableButton";
-import ContactForm from "./ContactForm";
 
 
 const Home = () => {
@@ -18,13 +15,7 @@ const Home = () => {
                 JAVASCRIPT / 
                 CSS / 
                 HTML / 
-                CREATIVE PORTFOLIO / </p>        
-            <About />
-            <ContactForm />
-            <ReusableButton>Resume</ReusableButton>
-            <ReusableButton>Projects</ReusableButton>
-            <ReusableButton>GitHub</ReusableButton>
-            <ReusableButton>Contact</ReusableButton>
+                CREATIVE PORTFOLIO / </p>
             <ImageDisplay></ImageDisplay>
             <Footer />
         </div>
