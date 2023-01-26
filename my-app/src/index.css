@@ -45,24 +45,6 @@ p {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-button {
-  padding: 0.7rem;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: rgb(70,70,70);
-  color: #ffd2d3;
-  outline: none;
-  border: none;
-  border-radius: 0px;
-  margin: 10px;
-}
-
-button:hover {
-  background-color: #0080ff;
-  color: rgb(255,210,211);
-  border: none;
-}
-
 footer {
   background-color: rgb(16,16,16);
   color: rgb(255,255,255);
@@ -70,7 +52,7 @@ footer {
   max-width: 1800px;
   width: 100%;
   min-height: 30px;
-  margin: 10px;
+  margin: 0px;
 }
 
 .reuse-btn {
@@ -87,7 +69,7 @@ footer {
 
 .reuse-btn:hover {
   background-color: rgb(255,50,0);
-  color:rgb(255,210,211);
+  color: rgb(255,210,211);
   border: none;
 }
 

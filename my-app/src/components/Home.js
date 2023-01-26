@@ -10,14 +10,13 @@ const Home = () => {
     return (
         //top level element
         <div className="container">
-            <h1>Rosie Moon Yin.</h1>
-            <p>REACT JSX / 
+            <h1 className="HomepageTitle">Rosie Moon Yin.</h1>
+            <p className="HomepageSubtitle">REACT JSX / 
                 JAVASCRIPT / 
                 CSS / 
                 HTML / 
                 CREATIVE PORTFOLIO / </p>
             <ImageDisplay></ImageDisplay>
-            <Footer />
         </div>
 
 )};
