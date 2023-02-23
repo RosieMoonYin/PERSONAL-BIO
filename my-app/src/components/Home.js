@@ -15,7 +15,12 @@ const Home = () => {
                 JAVASCRIPT / 
                 CSS / 
                 HTML / 
-                CREATIVE PORTFOLIO / </p>
+                CREATIVE PORTFOLIO / 
+                TO DO: Modal-pop up alert box!
+                contact for which returns info
+                design better
+                optional:
+                external links in footer?</p>
             <ImageDisplay></ImageDisplay>
         </div>
 
