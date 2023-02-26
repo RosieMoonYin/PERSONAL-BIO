@@ -1,4 +1,4 @@
-//I have installed a library so form handling is simpler - one issue is that form validation *error handling only happens on clicking submit!
+//I have installed a library so form handling is simpler!
     import { useForm } from "react-hook-form";
     import { useEffect } from "react";
   
@@ -21,6 +21,7 @@
     
       const onSubmit = (data, event) => {
         console.log(data);
+        //add line of code to disply inputs on screen!
         event.target.reset();
       };
     
@@ -36,8 +37,8 @@
                   {...register("firstName", {
                     required: "This is required",
                     minLength: {
-                      value: 5,
-                      message: "Please enter more than 4 character",
+                      value: 2,
+                      message: "Please enter more than 2 characters",
                     },
                   })}
                 />
@@ -84,7 +85,7 @@
                 />
                 <span className="errorMsg">
                   {errors.password &&
-                    "Password should be 8-20 characters and include at least 1 letter, 1 number and 1 special character!"}
+                    "Password should be 8-20 characters and include at least 1 capital letter, 1 number and 1 special character!"}
                 </span>
               </div>
     
