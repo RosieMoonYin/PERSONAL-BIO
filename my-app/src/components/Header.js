@@ -18,7 +18,7 @@ const Header = () => {
                     <Link className="Links" to = "/About"><ReusableButton>About</ReusableButton></Link>
                 </li>
                 <li>
-                    <Link className="Links" to = "/ContactForm"><ReusableButton>Contact</ReusableButton></Link>
+                    <Link className="Links" to = "/Form"><ReusableButton>Form</ReusableButton></Link>
                 </li>
                 <li>
                     <Link className="Links" to ={{pathname: "a/https://github.com/RosieMoonYin/"}} target="_blank" ><ReusableButton>GitHub</ReusableButton></Link>

@@ -1,7 +1,6 @@
 //arrow function is a nice thing most modern react projects do  like this
 //Home handles all UI
 
-import Footer from "./Footer";
 import ImageDisplay from "./Image";
 
 

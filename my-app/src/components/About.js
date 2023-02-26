@@ -8,6 +8,7 @@ return (
             <div>
                   <img src={stones} alt="Pile of stones" height={400} width={250}/>
             </div>
+            <p>Second paragraph</p>
             <div>
             <img src={stones} alt="Pile of stones" height={400} width={250}/>
             </div>

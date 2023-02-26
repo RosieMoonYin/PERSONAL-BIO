@@ -17,6 +17,10 @@ body {
   flex-direction: column;
 }
 
+.Logo-tree {
+  padding: 40px;
+}
+
 .nav-list {
   list-style-type: none;
   display: flex;
@@ -112,4 +116,27 @@ footer {
   font-size: 20px;
   color: rgb(255,165,167);
   margin-bottom: 8px;
+}
+
+/*form styling*/
+.wrapper {
+  padding: 5px 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .formInput {
+  margin: 20px 0;
+}
+/*IMPORTANT this hides input feild errors*/
+.errorMsg {
+  color: red;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }

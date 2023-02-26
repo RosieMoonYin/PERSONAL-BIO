@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import ContactForm from "./components/ContactForm";
+import Form from "./components/Form";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import React from "react";
@@ -17,7 +17,7 @@ function App () {
         <Routes>
           <Route path= "/" element={<Home />}/>
           <Route path= "/About" element={<About />}/>
-          <Route path= "/ContactForm" element={<ContactForm />}/>
+          <Route path= "/Form" element={<Form />}/>
         </Routes>
 
         <Footer />
