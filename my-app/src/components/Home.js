@@ -1,11 +1,7 @@
 //arrow function is a nice thing most modern react projects do  like this
 //Home handles all UI
 
-import About from "./About";
-import Footer from "./Footer";
 import ImageDisplay from "./Image";
-import ReusableButton from "./ReusableButton";
-import ContactForm from "./ContactForm";
 
 
 const Home = () => {
@@ -13,20 +9,18 @@ const Home = () => {
     return (
         //top level element
         <div className="container">
-            <h1>Rosie Moon Yin.</h1>
-            <p>REACT JSX / 
+            <h1 className="HomepageTitle">Rosie Moon Yin.</h1>
+            <p className="HomepageSubtitle">REACT JSX / 
                 JAVASCRIPT / 
                 CSS / 
                 HTML / 
-                CREATIVE PORTFOLIO / </p>        
-            <About />
-            <ContactForm />
-            <ReusableButton>Resume</ReusableButton>
-            <ReusableButton>Projects</ReusableButton>
-            <ReusableButton>GitHub</ReusableButton>
-            <ReusableButton>Contact</ReusableButton>
+                CREATIVE PORTFOLIO / 
+                TO DO: Modal-pop up alert box!
+                contact for which returns info
+                design better
+                optional:
+                external links in footer?</p>
             <ImageDisplay></ImageDisplay>
-            <Footer />
         </div>
 
 )};

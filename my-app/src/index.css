@@ -17,6 +17,15 @@ body {
   flex-direction: column;
 }
 
+.Logo-tree {
+  padding: 40px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
 h1 {  
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 110px;
@@ -53,10 +62,12 @@ button {
 }
 
 button:hover {
-  background-color: #0080ff;
+  background-color: rgb(255,50,0);
   color: rgb(255,210,211);
   border: none;
 }
+
+
 
 footer {
   background-color: rgb(16,16,16);
@@ -65,7 +76,7 @@ footer {
   max-width: 1800px;
   width: 100%;
   min-height: 30px;
-  margin: 10px;
+  margin: 0px;
 }
 
 .reuse-btn {
@@ -82,7 +93,7 @@ footer {
 
 .reuse-btn:hover {
   background-color: rgb(255,50,0);
-  color:rgb(255,210,211);
+  color: rgb(255,210,211);
   border: none;
 }
 
@@ -105,4 +116,27 @@ footer {
   font-size: 20px;
   color: rgb(255,165,167);
   margin-bottom: 8px;
+}
+
+/*form styling*/
+.wrapper {
+  padding: 5px 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .formInput {
+  margin: 20px 0;
+}
+/*IMPORTANT this hides input feild errors*/
+.errorMsg {
+  color: red;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }

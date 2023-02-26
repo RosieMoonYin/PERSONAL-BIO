@@ -1,8 +1,8 @@
-import Moon from "../Images/pxl-moon.png";
+import Tree from "../Images/pxl-blossom.png";
 const Logo = () => {
     return (
        <div>
-            <img src={Moon} alt="Pixel moon" height={40} width={40}/>
+            <img className="Logo-tree" src={Tree} alt="Pixel blossom" height={40} width={40}/>
        </div>
     );
 };
