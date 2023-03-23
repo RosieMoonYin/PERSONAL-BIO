@@ -15,13 +15,13 @@ const Header = () => {
                     <Link className="Links" to = "/"><ReusableButton>Home</ReusableButton></Link>
                 </li>
                 <li>
-                    <Link className="Links" to = "/About"><ReusableButton>About</ReusableButton></Link>
+                    <Link className="Links" to = "/About"><ReusableButton>Projects</ReusableButton></Link>
                 </li>
                 <li>
-                    <Link className="Links" to = "/Form"><ReusableButton>Form</ReusableButton></Link>
+                    <Link className="Links" to = "/Form"><ReusableButton>Contact</ReusableButton></Link>
                 </li>
                 <li>
-                    <Link className="Links" to ={{pathname: "a/https://github.com/RosieMoonYin/"}} target="_blank" ><ReusableButton>GitHub</ReusableButton></Link>
+                    <Link to={{pathname: "https://github.com/RosieMoonYin"}} target="_blank"><ReusableButton>Github</ReusableButton></Link>
                    
                 </li>
             </ul>

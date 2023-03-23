@@ -68,15 +68,25 @@ button:hover {
 }
 
 
-
-footer {
-  background-color: rgb(16,16,16);
-  color: rgb(255,255,255);
-  padding: 1rem;
+/*footer stuff!*/
+li ul nav{
+  list-style-type: none;
+}
+.foot-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+  margin: 2rem;
+  color:rgb(16,16,16);
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 10px;
   max-width: 1800px;
   width: 100%;
   min-height: 30px;
-  margin: 0px;
+  margin: 5px;
+
 }
 
 .reuse-btn {

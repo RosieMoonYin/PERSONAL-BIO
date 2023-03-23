@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 import Modal from "react-modal";
 import {useState} from "react";
+
 import Home from "./components/Home";
 import About from "./components/About";
 import Form from "./components/Form";
@@ -37,6 +38,10 @@ function App () {
           <Route path= "/" element={<Home />}/>
           <Route path= "/About" element={<About />}/>
           <Route path= "/Form" element={<Form />}/>
+          <Route path='/Github' component={() => {
+          window.location.href = "https://github.com/RosieMoonYin";
+          return null;
+          }}/>
         </Routes>
         <button onClick={setModalOpen}>VIEW RESUME</button>
       <Modal
@@ -54,5 +59,7 @@ function App () {
  
   );
 };
+
+
 
 export default App;
