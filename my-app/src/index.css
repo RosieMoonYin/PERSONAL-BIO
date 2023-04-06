@@ -129,6 +129,7 @@ li ul nav{
 }
 
 /*form styling*/
+
 .wrapper {
   padding: 5px 20px;
   height: 100vh;
@@ -149,4 +150,7 @@ li ul nav{
 form {
   display: flex;
   flex-direction: column;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }

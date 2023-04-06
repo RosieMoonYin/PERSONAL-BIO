@@ -29,7 +29,7 @@
         <div className="wrapper">
           <form onSubmit={handleSubmit(onSubmit)}>
             <fieldset>
-              <legend>React hook form:</legend>
+              <legend>Lets connect!</legend>
     
               <div className="formInput">
                 <label>Name</label>
