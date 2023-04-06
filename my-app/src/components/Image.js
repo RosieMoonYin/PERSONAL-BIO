@@ -1,8 +1,8 @@
-import stones from "../Images/stones.jpg";
+import stones from "../Images/anime-smart.png";
 const ImageDisplay = () => {
     return (
        <div>
-            <img src={stones} alt="Pile of stones" height={400} width={250}/>
+            <img src={stones} alt="anime portrait" height={400} width={400}/>
        </div>
     );
 };
